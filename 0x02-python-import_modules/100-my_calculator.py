@@ -2,8 +2,7 @@
 from sys import argv
 from calculator_1 import add, sub, mul, div
 
-if __name__ == "__main__":
-    
+if __name__ == '__main__':
     """
     Handles basic operations
 
@@ -32,7 +31,7 @@ if __name__ == "__main__":
         elif operator == '/':
             res = div(num_a, num_b)
             print('{:d} / {:d} = {:d}'.format(num_a, num_b, res))
-        elif operator != '+' and operator != '-' and operator != '*' and operator != '/':
+        else:
             print('Unknown operator. Available operators: +, -, * and /')
             exit(1)
     else:
