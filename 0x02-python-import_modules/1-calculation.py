@@ -2,7 +2,6 @@
 from calculator_1 import add, sub, mul, div
 
 if __name__ == "__main__":
-    """Print the addition, subtraction, multiplication and division of 10 and 5"""
 
 a = 10
 b = 5
