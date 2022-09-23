@@ -23,7 +23,7 @@ if __name__ == '__main__':
         elif operator == '/':
             res = div(num_a, num_b)
             print('{:d} / {:d} = {:d}'.format(num_a, num_b, res))
-        else:
+        elif operator != '+' and operator != '-' and operator != '*' and operator != '/':
             print('Unknown operator. Available operators: +, -, * and /')
             sys.exit(1)
     else:
