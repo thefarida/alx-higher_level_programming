@@ -3,7 +3,7 @@ from sys import argv
 from calculator_1 import add, sub, mul, div
 
 if __name__ == '__main__':
-    """This program executes an operation between two numbers and a selected operator"""
+    
 
     l_av = len(argv) - 1
     
