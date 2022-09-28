@@ -5,5 +5,5 @@ def best_score(a_dictionary):
 
     b_score = max(a_dictionary.values(), default=None)
     for k, v in a_dictionary.items():
-        if == b_score:
+        if v == b_score:
             return k
