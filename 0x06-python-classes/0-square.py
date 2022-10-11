@@ -6,5 +6,5 @@ This doesn't do anything right now
 """
 
 
-class square:
+class Square:
     pass
