@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Square class
+"""Square Class
 
-This doesn't do anything right now
+This class doesn't do anything right now
 
 """
 
