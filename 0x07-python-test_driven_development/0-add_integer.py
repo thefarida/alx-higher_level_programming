@@ -1,8 +1,5 @@
 #!/usr/bin/pythton3
-"""Module for addition function between two numbers,
-the numbers can be integers or floats.
-
-"""
+"""Defines an integer addition function."""
 
 
 def add_integer(a, b=98):
