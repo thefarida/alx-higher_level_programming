@@ -118,7 +118,6 @@ Test case #15: A test case with the second parameter of type 'str'
     Traceback (most recent call last):
     TypeError: b must be an integer
 
-
 Section // Types
 ======================
 
@@ -126,3 +125,18 @@ Test case #16: A test case to check the returned integer type
 
     >>> type(add_integer(5, 5))
     <class 'int'>
+
+Section // Nan numbers
+========================
+
+Test case #17: A test case with NaN numbers
+
+    >>> add_integer(float('nan'))
+    Traceback (most recent call last):
+    ValueError: cannot convert float NaN to integer
+
+Test case #18: A test case with NaN numbers
+
+    >>> add_integer(2, float('nan'))
+    Traceback (most recent call last):
+    ValueError: cannot convert float Nan to integer
