@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Define a matrix division function."""
+"""Defines a matrix division function."""
 
 
-def matrix_divided(matix, div):
-    """Divide all the elements of a matrix.
+def matrix_divided(matrix, div):
+    """Divide all elements of a matrix.
 
     Args:
         matrix (list): A list of lists of ints or floats.
@@ -13,7 +13,7 @@ def matrix_divided(matix, div):
         TypeError: If the matrix contains rows of different sizes.
         TypeError: If div is not an int or float.
         ZeroDivisionError: If div is 0.
-    Return:
+    Returns:
         A new matrix representing the result of the division.
     """
     if (not isinstance(matrix, list) or matrix == [] or
