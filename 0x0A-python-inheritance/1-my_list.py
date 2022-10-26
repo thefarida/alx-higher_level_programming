@@ -5,11 +5,16 @@ contains the MyList class
 
 
 class MyList(list):
-    """a subclass of list"""
-    def __init__(self):
-        """initializes the object"""
-        super().__init__()
+    """
+    A class to customize the list class
+    """
 
     def print_sorted(self):
-        """prints the sorted list"""
-        print(sorted(self))
+        """
+        Prints a lsit in ascending order
+
+        Sort a list and then prints on the output
+        """
+
+        if issubclass(Mylist, list):
+            print(sorted(self))
