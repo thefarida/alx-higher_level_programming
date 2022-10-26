@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Add all arguments to a pyhton list and save them to a file."""
+"""Add all arguments to a Pyhton list and save them to a file."""
 import sys
 
 if __name__ == "__main__":
