@@ -1,6 +1,3 @@
-#!/usr/bin/pyhton3
-"""An empty class."""
-
-
+#!/usr/bin/python3
 class BaseGeometry:
     pass
