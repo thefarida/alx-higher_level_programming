@@ -146,7 +146,7 @@ class Base:
             return []
 
     @staticmethod
-    def draw(list_rectangles, list_squares):
+    def draw(list_squares, list_rectangles):
         """Draw Rectangles and Squares using the turtle module.
 
         Args:
